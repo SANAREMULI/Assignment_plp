@@ -1,0 +1,18 @@
+# Week 2 Assignment: Simple Bill Calculator
+
+print("=" * 40)
+print("      SIMPLE BILL CALCULATOR")
+print("=" * 40)
+
+# Ask the user for input
+price = float(input("Enter the price of one item: "))
+quantity = int(input("Enter the quantity you want: "))
+
+# Calculate the total bill
+total = price * quantity
+
+# Display the result using an f-string
+print("\n----- BILL SUMMARY -----")
+print(f"{quantity} item(s) at {price:.2f} each = {total:.2f}")
+
+print("\nThank you for shopping with us!")
